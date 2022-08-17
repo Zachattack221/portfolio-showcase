@@ -4,14 +4,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./assets/reset.css">
-    <link rel="stylesheet" href="./assets/style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Portfolio: Zachary van Dijk</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body background="url(../../assets/Images/testbackground.jpg">
+<body>
     <!-- Added header,navigation bar, and nav links -->
     <header>
         <h1>Zachary van Dijk</h1>
@@ -38,50 +37,49 @@
         </section>
         <section id="work">
             <h2>Work</h2>
-            <!-- TODO: Connect links to github repos, possibly create a few placeholder links for "coming soon" -->
-            <div>
-                <atricle>
-                    <a href="" target="_blank">
-                        <img src="./Images/Horiseon-project-refactor-zach-vanDijk.png" alt="project-1" />
+            <!-- linked to github repos, created a few placeholder links for "coming soon" -->
+                <article>
+                    <a href="https://zachattack221.github.io/horiseon-refactor-project/" target="_blank">
+                        <img class="project-image-large"
+                            src="./assets/Images/Horiseon-project-refactor-zach-vanDijk.png" alt="project-1" />
                     </a>
                     <p>
-                        <a href="" target="_blank">
-                            Horiseon Refactor Project
+                        <a href="https://github.com/Zachattack221/horiseon-refactor-project" target="_blank">
+                            Horiseon Refactor Project Repository
                     </p>
-                </atricle>
-
-                <atricle>
-                    <a href="" target="_blank">
-                        <img src="./Images/Horiseon-project-refactor-zach-vanDijk.png" alt="project-1" />
+                </article>
+            <div id="projects">
+                <article>
+                    <a href="https://github.com/Zachattack221/test-repo-for-bootcamp" target="_blank">
+                        <img class="project-image" src="./assets/Images/testrepo.png" alt="project-2" />
                     </a>
                     <p>
-                        <a href="" target="_blank">
+                        <a href="https://github.com/Zachattack221/test-repo-for-bootcamp" target="_blank">
                             Test Repository Example
                     </p>
-                </atricle>
-
-
-                <atricle>
-                    <a href="" target="_blank">
-                        <img src="./Images/Horiseon-project-refactor-zach-vanDijk.png" alt="project-1" />
+                </article>
+                <!-- set link to coming soon project to first-day-demo repo, will replace with other projects as bootcamp progresses -->
+                <article>
+                    <a href="https://github.com/Zachattack221/first-day-demo" target="_blank">
+                        <img class="project-image" src="./assets/Images/Coming-Soon-Light.png" alt="project-3" />
                     </a>
                     <p>
-                        <a href="" target="_blank">
-                            Coming Soon!
+                        <a href="https://github.com/Zachattack221/first-day-demo" target="_blank">
+                            Coming Soon Repository </a>
                     </p>
-                </atricle>
+                </article>
             </div>
         </section>
         <section id="contact-info">
             <h2>Contact Information</h2>
             <div>
                 <!-- TODO: Add two links, one to github and another to LinkedIn (once updated) -->
-                <a> Github
-                    <a> LinkedIn
-                        <span>Email: </span>
-                        <a href="mailto:test123@gmail.com">
-                            test123@gmail.com
-                        </a>
+                <a> Github </a>
+                <a> LinkedIn </a>
+                <span>Email: </span>
+                <a href="mailto:test123@gmail.com">
+                    test123@gmail.com
+                </a>
             </div>
         </section>
     </main>
@@ -90,4 +88,5 @@
 <footer>
     Compiled by Zachary van Dijk
 </footer>
+
 </html>
