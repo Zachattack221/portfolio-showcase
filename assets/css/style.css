@@ -60,7 +60,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffffff;
+    color: #edc30a;
     text-decoration: underline;
 }
 
@@ -118,7 +118,7 @@ article {
     width: 100%;
 }
 
-/* TODO: finish media query */
+/* TODO: remove media query for responsive bootstrap styling */
 @media screen and (max-width: 576px) {
     header {
         flex-direction: column;
